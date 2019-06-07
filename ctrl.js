@@ -90,19 +90,21 @@ myApp.controller("mycontroller", function($scope) {
   //   console.log(b);
   //   $scope.b = b;
 
-  var array = [1, 2, 3, 4];
-  var evens = _.remove(array, function(n) {
-    return n % 2 == 0;
-  });
+  // var array = [1, 2, 3, 4];
+  // var evens = _.remove(array, function(n) {
+  //   return n % 2 == 0;
+  // });
 
-  console.log(array);
-  $scope.array= array;
+  // console.log(array);
+  // $scope.array = array;
 
+  // _.forEach([1, 2], function(value) {
+  //   console.log(value);
+  // });
 
-
-
-  
-
+  var b = _.camelCase("bhagyashri posture");
+  console.log("hii", b);
+  $scope.b = b;
 
   //   var users = [
   //     { user: "fred", age: 48 },
